@@ -2,7 +2,7 @@
 testStr = ["abc"
           "bcd"
           "def"][0]
-print(testStr)
+# print(testStr)
 
 testStr = """
 "applyType":"1","updateDate":"2018-12-04 11:45:31","refreshMulscore":"0.0","g_sort":"sort-ps-score-pqks-ranking",
@@ -11,4 +11,4 @@ testStr = """
 "companyLogo":"http://company.zhaopin.com/CompanyLogo/20170924/B0C9792B85044D2AA511634623A03343.jpg","futureJob":false,"emplType":"全职","g_source":"source-solr-position","recentAndTotal":{"applyTotal":"0","exposureTotal":"0","clickTotal":"0","exposureRecent":"0","clickRecent":"0","applyRecent":"0"},"tags":[],"positionLabel":"{\"qualifications\":null,\"chatWindow\":0,\"role\":null,\"companyTag\":null,\"level\":null,\"refreshLevel\":0,\"skill\":null,\"joblight\":[\"五险一金\",\"绩效奖金\",\"餐补\",\"定期体检\"]}","expandCount":0,"jobTag":{"searchTag":"五险一金,绩效奖金,餐补,定期体检"},"feedbackRation":0,"interview":0,"selected":false,"applied":false,"collected":false,"isShow":false,"timeState":"招聘中","rate":""},
 
 """
-print(len(testStr))
+# print(len(testStr))
