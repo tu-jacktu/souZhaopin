@@ -1,4 +1,4 @@
-# zouZhaopin / 智联爬虫
+# souZhaopin / 智联爬虫
 
 ### 功能简介
 >主要用来爬取智联招聘各个城市的Java职位(改参数就可以爬其他如金融职位)
@@ -31,4 +31,26 @@
 
 ### 保存到数据库的职位信息
 ![img](readme/2.PNG)
+
+### 项目目录
+```
+│  scrapy.cfg   scrapy 框架配置文件
+├─readme
+│      1.PNG    截图
+│      2.PNG    截图
+│      data.sql 数据库文件,导入MySQL数据
+├─souZhaopin
+│  │  items.py          目标文件,相当于 JavaBean
+│  │  middlewares.py    框架生成文件
+│  │  pipelines.py      scrapy 框架管道文件
+│  │  settings.py       scrapy 框架设置
+│  ├─spiders
+│  │  │  UnitTest.py        单元测试
+│  │  │  ZhaopinSpider.py   程序入口
+└─资料收集              写这个所收集的一些资料,算是准备工作
+        detail.json
+        requestUrl.txt
+        result.json
+
+```
 
