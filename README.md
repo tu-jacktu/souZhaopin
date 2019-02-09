@@ -1,5 +1,7 @@
 # souZhaopin / 智联爬虫
 
+### [GitHub地址](https://github.com/tu-jacktu/souZhaopin)
+
 ### 功能简介
 >主要用来爬取智联招聘各个城市的Java职位(改参数就可以爬其他如金融职位)
 
